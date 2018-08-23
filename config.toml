@@ -16,14 +16,8 @@ MetaDataFormat = "yaml"
   background = "/images/background.jpg"
   description = "A place to publish my incomprehensible ramblings" #meta description
   image = "/poke-avatar.png" #for frontpage profile card
-  mdlPrimary = "indigo"
-  mdlSecondary = "pink"
   website = "poke.digital"
-#  email = "Firstname@example.com"
-#  twitter = "https://twitter.com/firstname_lastname"
   github = "https://github.com/warp-poke/"
-#  linkedin = "https://linkedin.com/in/firstname_lastname/"
-#  facebook = "https://facebook.com/firstname_lastname/"
   copyrightyear = "2018"
   frontpageposts = 6 # number of post cards to display on frontpage
 
