@@ -7,6 +7,7 @@
   name: "First Last"
   twitter: "example_twittername"
   website: "http://example.com/"
+type: project
 cardbackground: "#222444"
 cardthumbimage: "/images/default-small.jpg"
 cardheaderimage: "/images/default.jpg"

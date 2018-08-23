@@ -5,6 +5,7 @@ description: "This was a cool website I made"
 #cardimage: "/images/default.jpg"
 #headerimage: "/images/default.jpg"
 cardbackground: "#263238"
+type: project
 web: "http://github.com/sampleproject"
 repo: "http://github.com/sampleproject"
 "author":

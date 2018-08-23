@@ -4,6 +4,7 @@ date: "2015-09-27"
 description: "This is a description of my project"
 web: "http://github.com/sampleproject"
 repo: "http://github.com/sampleproject"
+type: project
 #cardimage: "/images/default.jpg"
 #headerimage: "/images/default.jpg"
 #cardbackground: "#263238"

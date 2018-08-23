@@ -6,6 +6,7 @@ description: "This was a cool piece of code that I wrote"
 #headerimage: "/images/default.jpg"
 cardbackground: "#266638"
 #repo: "http://github.com/sampleproject"
+type: project
 "author":
   description: "Writer of stuff"
   email: "jeremy@example.com"

@@ -5,6 +5,7 @@ description: "This is a description of my project"
 #cardimage: "/images/default.jpg"
 #headerimage: "/images/default.jpg"
 cardbackground: "#663667"
+type: project
 web: "http://github.com/sampleproject"
 repo: "http://github.com/sampleproject"
 "author":

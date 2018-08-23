@@ -11,21 +11,21 @@ MetaDataFormat = "yaml"
 	about = "/:filename/"
 
 [params]
-  author = "Firstname Lastname"
-  avatar = "/images/avatar.png"
+  author = "Poke"
+  avatar = "/poke-avatar.png"
   background = "/images/background.jpg"
   description = "A place to publish my incomprehensible ramblings" #meta description
-  image = "/images/avatar-192x210.png" #for frontpage profile card
-  mdlPrimary = "grey"
-  mdlSecondary = "orange"
-  website = "example.com"
-  email = "Firstname@example.com"
-  twitter = "https://twitter.com/firstname_lastname"
-  github = "https://github.com/firstname_lastname/"
-  linkedin = "https://linkedin.com/in/firstname_lastname/"
-  facebook = "https://facebook.com/firstname_lastname/"
-  copyrightyear = "2015"
-  frontpageposts = 6 #number of post cards to display on frontpage
+  image = "/poke-avatar.png" #for frontpage profile card
+  mdlPrimary = "indigo"
+  mdlSecondary = "pink"
+  website = "poke.digital"
+#  email = "Firstname@example.com"
+#  twitter = "https://twitter.com/firstname_lastname"
+  github = "https://github.com/warp-poke/"
+#  linkedin = "https://linkedin.com/in/firstname_lastname/"
+#  facebook = "https://facebook.com/firstname_lastname/"
+  copyrightyear = "2018"
+  frontpageposts = 6 # number of post cards to display on frontpage
 
 # Fully customizable header menu
 [[menu.main]]
@@ -33,8 +33,8 @@ MetaDataFormat = "yaml"
   url = "/"
   weight = -200
 [[menu.main]]
-  name = "Articles"
-  url = "/post/"
+  name = "Documentations"
+  url = "/docs/"
   weight = -180
 [[menu.main]]
   name = "Projects"

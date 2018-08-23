@@ -7,6 +7,7 @@ author:
   name: First Last
   twitter: example_twittername
   website: http://example.com/
+type: project
 cardbackground: '#888288'
 #cardimage: /images/default.jpg
 categories:
