@@ -1,0 +1,7 @@
+            {{- partial "header.html" . }}
+            <div class="hmdl-list mdl-grid">
+            {{- range .Data.Pages }}
+                    {{ .Render "project-card" }}
+            {{- end }}
+            </div>
+            {{- partial "footer.html" . }}

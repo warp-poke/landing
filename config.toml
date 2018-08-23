@@ -27,12 +27,12 @@ MetaDataFormat = "yaml"
   url = "/"
   weight = -200
 [[menu.main]]
-  name = "Posts"
-  url = "/post/"
+  name = "Features"
+  url = "/features/"
   weight = -180
 [[menu.main]]
-  name = "Projects"
-  url = "/project/"
+  name = "Documentations"
+  url = "/documentations/"
   weight = -160
 [[menu.main]]
   name = "About"
