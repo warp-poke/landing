@@ -12,14 +12,12 @@
             </div>
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--12-col">
-                    
+                    <h1 style="margin-top:160px;">{{ .Site.Params.Header }}</h1>
                 </div>
             </div>
         </header>
         <div class="mdl-layout__drawer">
-            {{- if eq .Title "Projects" }}
             <span class="mdl-layout-title">{{ title .Title }}</span>
-            {{- end }}
             <nav class="mdl-navigation">
             {{- range .Site.Menus.main }}
             <a class="mdl-navigation__link{{ if eq ($.Permalink | relURL) (.URL | safeHTML) }} mdl-color-text--accent{{ end }}" href="{{ .URL }}">{{ .Name }}</a>

@@ -11,6 +11,7 @@ MetaDataFormat = "yaml"
 	about = "/:filename/"
 
 [params]
+  header = "Poke your website and know when it is down"
   author = "Poke"
   avatar = "/poke-avatar.png"
   background = "/images/background.jpg"
