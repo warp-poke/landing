@@ -10,11 +10,13 @@
                 {{- end }}
                 </nav>
             </div>
-            <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--12-col">
-                    <h1 style="margin-top:160px;">{{ .Site.Params.Header }}</h1>
+            {{if eq .Kind "home"}}
+                <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col">
+                        <h1 style="margin-top:160px;">{{ .Site.Params.Header }}</h1>
+                    </div>
                 </div>
-            </div>
+            {{end}}
         </header>
         <div class="mdl-layout__drawer">
             <span class="mdl-layout-title">{{ title .Title }}</span>
