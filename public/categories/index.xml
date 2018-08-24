@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Poke</title>
+    <link>https://poke.digital/categories/</link>
+    <description>Recent content in Categories on Poke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://poke.digital/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://poke.digital/categories/about/</link>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://poke.digital/categories/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bio</title>
+      <link>https://poke.digital/categories/bio/</link>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://poke.digital/categories/bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Documentations</title>
+      <link>https://poke.digital/categories/documentations/</link>
+      <pubDate>Thu, 23 Aug 2018 10:00:00 +0000</pubDate>
+      
+      <guid>https://poke.digital/categories/documentations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feature</title>
+      <link>https://poke.digital/categories/feature/</link>
+      <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
+      
+      <guid>https://poke.digital/categories/feature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>https://poke.digital/categories/meta/</link>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://poke.digital/categories/meta/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

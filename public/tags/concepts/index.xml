@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concepts on Poke</title>
+    <link>https://poke.digital/tags/concepts/</link>
+    <description>Recent content in Concepts on Poke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Aug 2018 09:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://poke.digital/tags/concepts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Concepts</title>
+      <link>https://poke.digital/documentations/concepts/</link>
+      <pubDate>Thu, 23 Aug 2018 09:00:00 +0000</pubDate>
+      
+      <guid>https://poke.digital/documentations/concepts/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper urna ut lorem ornare pharetra. Mauris in lectus id elit viverra suscipit sed at quam. Aliquam tempor facilisis ex, sit amet pharetra lorem euismod ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar nibh non blandit dignissim. Aliquam venenatis euismod facilisis. Duis pulvinar dictum erat, vel interdum urna tincidunt ut. Praesent sit amet tincidunt urna. Fusce dolor felis, porttitor sit amet aliquet ut, blandit sed mauris.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentations on Poke</title>
+    <link>https://poke.digital/categories/documentations/</link>
+    <description>Recent content in Documentations on Poke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Aug 2018 10:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://poke.digital/categories/documentations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started</title>
+      <link>https://poke.digital/documentations/getting-started/</link>
+      <pubDate>Thu, 23 Aug 2018 10:00:00 +0000</pubDate>
+      
+      <guid>https://poke.digital/documentations/getting-started/</guid>
+      <description>All Poke&amp;rsquo;s components are hosted on GitHub under the warp-poke organisation.
+This organisation provides some agents in order to check protocols:
+ HTTP: https://github.com/warp-poke/http-rust-agent DNS: https://github.com/warp-poke/dns-rust-agent SSL: https://github.com/warp-poke/ssl-go-agent  Furthermore, there is an API that manage checks and their scheduling:
+ API: https://github.com/warp-poke/poke-api.  Start using docker-compose On the poke-compose repository, there is all you need to setup a docker-based poke infrastructure. This infrastructure used the standalone version of each distributed components.</description>
+    </item>
+    
+    <item>
+      <title>Concepts</title>
+      <link>https://poke.digital/documentations/concepts/</link>
+      <pubDate>Thu, 23 Aug 2018 09:00:00 +0000</pubDate>
+      
+      <guid>https://poke.digital/documentations/concepts/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper urna ut lorem ornare pharetra. Mauris in lectus id elit viverra suscipit sed at quam. Aliquam tempor facilisis ex, sit amet pharetra lorem euismod ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar nibh non blandit dignissim. Aliquam venenatis euismod facilisis. Duis pulvinar dictum erat, vel interdum urna tincidunt ut. Praesent sit amet tincidunt urna. Fusce dolor felis, porttitor sit amet aliquet ut, blandit sed mauris.</description>
+    </item>
+    
+  </channel>
+</rss>

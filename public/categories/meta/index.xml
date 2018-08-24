@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on Poke</title>
+    <link>https://poke.digital/categories/meta/</link>
+    <description>Recent content in Meta on Poke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://poke.digital/categories/meta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Page</title>
+      <link>https://poke.digital/about/</link>
+      <pubDate>Thu, 23 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://poke.digital/about/</guid>
+      <description>Goals Poke has been designed to monitor hundreds of thousands web sites in an efficient and operable manner. Relying on Time Series, and more specificaly Warp10, Poke leverages advanced sliding window algorithms to alert on trends instead on basic checks and thresholds. This metrics approach opens your web monitoring to anomaly detection, outlier, prediction, etc.
+Components Poke infrastructure has been designed to reuse a maximum of a Warp 10 infrastructure components like Apache Kafka and Apache HBase, reducing new dependencies like databases.</description>
+    </item>
+    
+  </channel>
+</rss>
