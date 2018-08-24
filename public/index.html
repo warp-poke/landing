@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="generator" content="Hugo 0.47" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="My thoughts and rambles">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="icon" type="image/png" href="https://poke.digital//images/favicon.ico">
+
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="https://poke.digital/images/touch/chrome-touch-icon-192x192.png">
+
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+    
+    <meta name="msapplication-TileImage" content="https://poke.digital/images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"/>
+    <link rel="stylesheet" href="https://poke.digital/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.1.3/material.grey-orange.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://poke.digital/css/hmdl-style.css"/>
+
+
+
+    <title>Poke</title>
+</head>
+
+<body style="background-image: url('/images/background.jpg');">
+    <div class="hmdl-body mdl-layout mdl-js-layout has-drawer is-upgraded">        
+        <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+            <div class="mdl-layout__header-row">
+                
+                <span class="mdl-layout-title">Poke</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                <a class="mdl-navigation__link mdl-color-text--accent" href="/">Home</a>
+                <a class="mdl-navigation__link" href="/features/">Features</a>
+                <a class="mdl-navigation__link" href="/documentations/">Documentations</a>
+                <a class="mdl-navigation__link" href="/about/">About</a>
+                </nav>
+            </div>
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--12-col">
+                    <h1 style="margin-top:160px;">Poke your website and know when it is down</h1>
+                </div>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Poke</span>
+            <nav class="mdl-navigation">
+            <a class="mdl-navigation__link mdl-color-text--accent" href="/">Home</a>
+            <a class="mdl-navigation__link" href="/features/">Features</a>
+            <a class="mdl-navigation__link" href="/documentations/">Documentations</a>
+            <a class="mdl-navigation__link" href="/about/">About</a>
+            </nav>
+        </div>
+
+        <main class="mdl-layout__content">
+
+            <div class="hmdl-frontpage mdl-grid">                
+                <div class="hmdl-profile-card mdl-card profile-card mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop">
+                    <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600" style="background-image: url('/poke-avatar.png');">
+                    </div>                    
+                    <div id="fab_ctn" class="mdl-button--fab_flinger-container">
+
+                        <button id="fab_btn" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab"  style="background:#ff0066">
+                            <i class="icon ion-android-add mdl-color-text--white" role="presentation"></i>
+                            <span class="visuallyhidden">add</span>
+                        </button>
+
+                        <div class="mdl-button--fab_flinger-options">
+                            <a href=/about>
+                                <button id="about" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--primary" title="About Me">
+                                    <i class="icon ion-person mdl-color-text--white" role="presentation"></i>
+                                </button>
+                            </a>
+
+                            <a href=/features>
+                                <button id="projects" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--primary" title="My Projects">
+                                    <i class="icon ion-code mdl-color-text--white" role="presentation"></i>
+                                </button>
+                            </a>
+
+                            <a href="https://gitter.im/warp-poke/Lobby">
+                                <button id="email" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-color--primary" title="Email Me">
+                                    <i class="icon ion-quote mdl-color-text--white" role="presentation"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hmdl-page-meta mdl-card__supporting-text meta--fill mdl-color-text--grey-600 ">
+                        <div>
+                            <strong>Poke</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mdl-card mdl-cell mdl-cell--8-col">
+                    <div class="mdl-card__media mdl-color-text--grey-50" style=" background-color:#ff0066;">
+                        <h3><a href="/documentations/getting-started/" >Getting Started</a></h3>
+                    </div>
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                        
+                            All Poke&rsquo;s components are hosted on GitHub under the warp-poke organisation.
+This organisation provides some agents in order to check protocols:
+ HTTP: <a href="https://github.com/warp-poke/http-rust-age">https://github.com/warp-poke/http-rust-age</a>...
+                        
+                    </div>
+                    <div class="hmdl-page-meta mdl-card__supporting-text mdl-color-text--grey-600">
+                        <div class="minilogo" style="background-image: url('/poke-avatar.png');"></div>
+                        <div>
+                            <strong><a href="https://poke.digital/">Poke</a></strong>
+                            <span>Aug 23, 2018</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mdl-card mdl-cell mdl-cell--12-col">
+                    <div class="mdl-card__media mdl-color-text--grey-50" style=" background-color:#ff0066;">
+                        <h3><a href="/documentations/concepts/" >Concepts</a></h3>
+                    </div>
+                    <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+                        
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper urna ut lorem ornare pharetra. Mauris in lectus id elit viverra suscipit sed at quam. Aliquam tempor facilisis ex, sit amet pharet...
+                        
+                    </div>
+                    <div class="hmdl-page-meta mdl-card__supporting-text mdl-color-text--grey-600">
+                        <div class="minilogo" style="background-image: url('/poke-avatar.png');"></div>
+                        <div>
+                            <strong><a href="https://poke.digital/">Poke</a></strong>
+                            <span>Aug 23, 2018</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <nav class="mdl-cell mdl-cell--12-col">
+                    <div class="section-spacer"></div>
+                    <a href=/features/ title="show more">
+                        More
+                        <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+                            <i class="material-icons icon ion-android-arrow-forward" role="presentation"></i>
+                        </button>
+                    </a>
+                </nav>
+
+            </div>        
+        </main>
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer--left-section">                
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://github.com/warp-poke/">
+                    <i class="material-icons_lg icon ion-social-github"></i>
+                    <span class="visuallyhidden">Github</span>
+                </a>
+
+            </div>
+            <div class="mdl-mini-footer--right-section">
+                <span>© 2018 Poke</span>
+            </div>
+        </footer>
+        <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+    <script src=/js/cardmedia.js></script>
+    <script src=/js/fabbutton.js></script>
+
+
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alerting on Poke</title>
+    <link>https://poke.digital/tags/alerting/</link>
+    <description>Recent content in Alerting on Poke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Aug 2018 13:35:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://poke.digital/tags/alerting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alerting</title>
+      <link>https://poke.digital/features/alerting/</link>
+      <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
+      
+      <guid>https://poke.digital/features/alerting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

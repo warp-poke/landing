@@ -15,12 +15,72 @@ author:
 cardbackground: "#ff0066"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper urna ut lorem ornare pharetra. Mauris in lectus id elit viverra suscipit sed at quam. Aliquam tempor facilisis ex, sit amet pharetra lorem euismod ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar nibh non blandit dignissim. Aliquam venenatis euismod facilisis. Duis pulvinar dictum erat, vel interdum urna tincidunt ut. Praesent sit amet tincidunt urna. Fusce dolor felis, porttitor sit amet aliquet ut, blandit sed mauris. Proin eu pretium velit. Aenean dictum purus nec condimentum efficitur. Nulla eget luctus enim.
+All Poke's components are hosted on GitHub under the [warp-poke](https://github.com/warp-poke) organisation.
 
-Maecenas vitae auctor tellus. Sed non eros eu arcu bibendum porta et dignissim leo. Cras sit amet nibh sagittis, rhoncus nulla ac, rhoncus quam. Ut vitae sapien sed mi pharetra finibus. Nam dapibus tempus pellentesque. Donec cursus, ligula non placerat varius, lectus elit malesuada purus, vitae condimentum arcu diam ut velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ut massa luctus, malesuada magna non, sagittis ipsum. Sed eget mi vitae purus ultrices mollis. Nam a libero ipsum. Donec ornare sed lacus a rutrum. Praesent facilisis tellus ac eleifend consectetur.
+This organisation provides some agents in order to check protocols:
 
-Phasellus a dictum nibh. Aliquam id vulputate justo. Quisque sed vehicula sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi rutrum faucibus ligula, vel blandit mauris congue ac. Curabitur molestie ligula arcu, ac bibendum nisi laoreet vel. Ut facilisis egestas ornare. Vestibulum id nibh in nibh porta congue ut at felis. Nunc id velit eget nunc hendrerit ullamcorper. Nam convallis scelerisque egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. In volutpat mollis magna ac vulputate. Mauris sit amet blandit tortor, vel interdum velit.
+- HTTP: [https://github.com/warp-poke/http-rust-agent](https://github.com/warp-poke/http-rust-agent)
+- DNS: [https://github.com/warp-poke/dns-rust-agent](https://github.com/warp-poke/dns-rust-agent)
+- SSL: [https://github.com/warp-poke/ssl-go-agent](https://github.com/warp-poke/ssl-go-agent)
 
-Fusce auctor eros quam, et interdum ligula viverra nec. Aliquam laoreet nec nisi ut mattis. Nunc tincidunt lacus at mauris ultrices tempus. Ut dapibus erat risus, non aliquet leo ultricies vel. Integer fermentum vulputate viverra. Suspendisse malesuada mollis laoreet. Nam ut condimentum ex. Cras lacus est, interdum ut aliquam eu, dignissim at velit. Vivamus a lorem tincidunt, pellentesque risus id, ornare augue. Quisque efficitur sem vel vulputate fringilla. Suspendisse potenti. Suspendisse imperdiet quis tellus a porta. Curabitur in lorem tristique, suscipit massa in, laoreet quam. Suspendisse dolor nunc, dignissim non rutrum sed, pulvinar rutrum enim. Aliquam nec nibh nunc. Integer ullamcorper faucibus dolor, ac tempus felis maximus iaculis.
+Furthermore, there is an API that manage checks and their scheduling:
 
-Nam eleifend dui in sem rhoncus pellentesque. Aliquam faucibus orci sed ex sollicitudin dapibus. Duis a suscipit nibh. Suspendisse et gravida augue. Mauris eleifend, quam at sodales tempor, diam urna convallis eros, id molestie eros sapien nec dui. Ut dapibus finibus augue ac venenatis. Nullam ut sollicitudin sem.
+-  API: [https://github.com/warp-poke/poke-api](https://github.com/warp-poke/poke-api).
+
+##### Start using docker-compose
+
+On the [poke-compose](https://github.com/warp-poke/poke-compose) repository, there is all you need to setup a docker-based poke infrastructure. This infrastructure used the standalone version of each distributed components.
+
+Firstly, get the repository using __git__:
+
+```sh
+$ git clone https://github.com/warp-poke/poke-compose.git
+```
+
+Once, the repository is cloned, start the infrastructure using the __docker-compose__ command:
+
+```sh
+$ docker-compose --project-name poke up
+
+Creating network "poke_default" with the default driver
+...
+Creating poke_warp_1       ... done
+Creating poke_pg_1         ... done
+Creating poke_zookeeper_1  ... done
+Creating poke_kafka_1      ... done
+Creating poke_api_1        ... done
+Creating poke_http-agent_1 ... done
+...
+warp_1        | starting Warp10...
+warp_1        |
+warp_1        |   ___       __                           ____________
+warp_1        |   __ |     / /_____ _______________      __<  /_  __ \
+warp_1        |   __ | /| / /_  __ `/_  ___/__  __ \     __  /_  / / /
+warp_1        |   __ |/ |/ / / /_/ /_  /   __  /_/ /     _  / / /_/ /
+warp_1        |   ____/|__/  \__,_/ /_/    _  .___/      /_/  \____/
+warp_1        |                            /_/
+warp_1        |
+warp_1        |   Revision 1.2.19
+warp_1        |
+warp_1        | ########[ Initialized with 1000 time units per millisecond ]########
+warp_1        | log4j:WARN No appenders could be found for logger (org.eclipse.jetty.util.log).
+warp_1        | log4j:WARN Please initialize the log4j system properly.
+warp_1        | log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+warp_1        | Loaded 0 GTS in 11.352754 ms
+...
+warp_1        | #### standalone.endpoint /0.0.0.0:8080
+api_1         | [info] application - Creating Pool for datasource 'default'
+api_1         | [info] p.a.d.DefaultDBApi - Database [default] connected at jdbc:postgresql://pg:5432/poke
+api_1         | [info] application - ON START
+api_1         | [info] play.api.Play - Application started (Prod)
+api_1         | [info] p.c.s.AkkaHttpServer - Listening for HTTP on /0.0.0.0:9000
+...
+```
+
+This output some logs by docker spawned.
+
+Now, poke is started so you can access to the user interface on [http://127.0.0.1:8080](http://127.0.0.1:8080). You should see the [poke-ui](https://github.com/warp-poke/poke-ui):
+
+![poke-ui](/documentations/user-interface.png)
+
+That's all about setup poke using __docker-compose__! Now, it is time to play with the user interface to monitor everything.

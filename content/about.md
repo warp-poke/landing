@@ -29,3 +29,7 @@ Poke infrastructure has been designed to reuse a maximum of a Warp 10 infrastruc
 #### Open Source & Contributions
 
 Poke is a collaboration effort between multiple companies that had a similar need. Contributions are welcomed and discussions happen on [gitter](https://gitter.im/warp-poke/Lobby).
+
+Furthermore, there is a periscope live from Criteo Paris' meetup about Poke:
+
+- [https://www.pscp.tv/waxzce/1OwGWEEvapkxQ](https://www.pscp.tv/waxzce/1OwGWEEvapkxQ)

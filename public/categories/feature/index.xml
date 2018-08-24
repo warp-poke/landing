@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feature on Poke</title>
+    <link>https://poke.digital/categories/feature/</link>
+    <description>Recent content in Feature on Poke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Aug 2018 13:35:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://poke.digital/categories/feature/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Agents</title>
+      <link>https://poke.digital/features/agents/</link>
+      <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
+      
+      <guid>https://poke.digital/features/agents/</guid>
+      <description>Agents are operators which create metrics from your websites at regular interval. In addition, they create metrics by zone where the agent is deployed.
+A zone is a concept affiliated to the team or enterprise whom deploy agents. Generally, each agent is deployed on each zone used by the team or enterprise.
+HTTP The HTTP agent scrapes your websites in order to extract the response status and time. This agent emulates the user&amp;rsquo;s traffic.</description>
+    </item>
+    
+    <item>
+      <title>Alerting</title>
+      <link>https://poke.digital/features/alerting/</link>
+      <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
+      
+      <guid>https://poke.digital/features/alerting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High performance</title>
+      <link>https://poke.digital/features/high-performance/</link>
+      <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
+      
+      <guid>https://poke.digital/features/high-performance/</guid>
+      <description>Why being highly efficient? Monitoring is first class citizen while running any kind of service or infrastructure. Workloads can grow fast and it&amp;rsquo;s important for the monitoring solution to support this growth without being rethought every month so we can concentrate on the customer value. An other good reason is the cost ratio between the service and the monitoring cost to ensure your service is fine.
+How do we achieve performance There are mainly two parts in the Poke architecture : the scheduler and agents.</description>
+    </item>
+    
+    <item>
+      <title>Scalable</title>
+      <link>https://poke.digital/features/scalable/</link>
+      <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
+      
+      <guid>https://poke.digital/features/scalable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time series</title>
+      <link>https://poke.digital/features/time-series/</link>
+      <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
+      
+      <guid>https://poke.digital/features/time-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>User interface</title>
+      <link>https://poke.digital/features/user-interface/</link>
+      <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
+      
+      <guid>https://poke.digital/features/user-interface/</guid>
+      <description>The user interface provides an easy way to visualize metrics provided by agents. It is created in order to fastly highlight websites malfunctions.
+Just behind there is an example of what you could see using the poke monitoring system:
+As we can see, there are three paths of the domain google.com answering using HTTPS protocol which are monitored by poke. Furthermore, there are the HTTP response status and latency displayed.</description>
+    </item>
+    
+  </channel>
+</rss>

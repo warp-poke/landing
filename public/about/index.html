@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="generator" content="Hugo 0.47" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="My thoughts and rambles">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="icon" type="image/png" href="https://poke.digital//images/favicon.ico">
+
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="https://poke.digital/images/touch/chrome-touch-icon-192x192.png">
+
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+    
+    <meta name="msapplication-TileImage" content="https://poke.digital/images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"/>
+    <link rel="stylesheet" href="https://poke.digital/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.1.3/material.grey-orange.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://poke.digital/css/hmdl-style.css"/>
+
+
+
+    <title>About Page</title>
+</head>
+
+<body style="background-image: url('/images/background.jpg');">
+    <div class="hmdl-body mdl-layout mdl-js-layout has-drawer is-upgraded">        
+        <header class="mdl-layout__header mdl-layout__header--transparent mdl-layout__header--scroll">
+            <div class="mdl-layout__header-row">
+                
+                <span class="mdl-layout-title">About Page</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="/">Home</a>
+                <a class="mdl-navigation__link" href="/features/">Features</a>
+                <a class="mdl-navigation__link" href="/documentations/">Documentations</a>
+                <a class="mdl-navigation__link mdl-color-text--accent" href="/about/">About</a>
+                </nav>
+            </div>
+            <div class="mdl-grid">
+                <div class="mdl-cell mdl-cell--12-col">
+                    <h1 style="margin-top:160px;">Poke your website and know when it is down</h1>
+                </div>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">About Page</span>
+            <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="/">Home</a>
+            <a class="mdl-navigation__link" href="/features/">Features</a>
+            <a class="mdl-navigation__link" href="/documentations/">Documentations</a>
+            <a class="mdl-navigation__link mdl-color-text--accent" href="/about/">About</a>
+            </nav>
+        </div>
+
+        <main class="mdl-layout__content">
+
+            <div class="hmdl-page hmdl-about mdl-grid">
+                <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+                    <div id="hmdl-about-media" class="hmdl-page-banner mdl-card__media about-media" style=" background-color:#ff0066;">
+                        <div class="profile-pic-container">
+                            <div class="profilepic" style="background-image: url('/poke-avatar.png');"></div>
+                        </div>
+                    </div>
+
+                    <div id="hmdl-about-text" class="hmdl-page-content mdl-color-text--grey-700 mdl-card__supporting-text">
+                        <h3>Poke</h3>
+                        <h6>Open Source and Highly Scalable Web Monitoring Solution</h6>
+                        <div>
+                                
+
+<h4 id="goals">Goals</h4>
+
+<p>Poke has been designed to monitor hundreds of thousands web sites in an efficient and operable manner. Relying on Time Series, and more specificaly Warp10, Poke leverages advanced sliding window algorithms to alert on trends instead on basic checks and thresholds. This metrics approach opens your web monitoring to anomaly detection, outlier, prediction, etc.</p>
+
+<h4 id="components">Components</h4>
+
+<p>Poke infrastructure has been designed to reuse a maximum of a Warp 10 infrastructure components like Apache Kafka and Apache HBase, reducing new dependencies like databases. From a helicopter perspective, the architecture is based on a scheduler that generates check requests for each web sites or domains. These check requests are sent to a Kafka topic that will be consumped by agents dedicated to differents checks like DNS, HTTP and SSL.</p>
+
+<h4 id="open-source-contributions">Open Source &amp; Contributions</h4>
+
+<p>Poke is a collaboration effort between multiple companies that had a similar need. Contributions are welcomed and discussions happen on <a href="https://gitter.im/warp-poke/Lobby">gitter</a>.</p>
+
+<p>Furthermore, there is a periscope live from Criteo Paris&rsquo; meetup about Poke:</p>
+
+<ul>
+<li><a href="https://www.pscp.tv/waxzce/1OwGWEEvapkxQ">https://www.pscp.tv/waxzce/1OwGWEEvapkxQ</a></li>
+</ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </main>
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer--left-section">                
+                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-mini-footer--social-btn social-btn" href="https://github.com/warp-poke/">
+                    <i class="material-icons_lg icon ion-social-github"></i>
+                    <span class="visuallyhidden">Github</span>
+                </a>
+
+            </div>
+            <div class="mdl-mini-footer--right-section">
+                <span>© 2018 Poke</span>
+            </div>
+        </footer>
+        <div class="mdl-layout__obfuscator"></div>
+    </div>
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+
+</body>
+</html>
+

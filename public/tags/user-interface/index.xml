@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>User Interface on Poke</title>
+    <link>https://poke.digital/tags/user-interface/</link>
+    <description>Recent content in User Interface on Poke</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Aug 2018 13:35:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://poke.digital/tags/user-interface/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>User interface</title>
+      <link>https://poke.digital/features/user-interface/</link>
+      <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
+      
+      <guid>https://poke.digital/features/user-interface/</guid>
+      <description>The user interface provides an easy way to visualize metrics provided by agents. It is created in order to fastly highlight websites malfunctions.
+Just behind there is an example of what you could see using the poke monitoring system:
+As we can see, there are three paths of the domain google.com answering using HTTPS protocol which are monitored by poke. Furthermore, there are the HTTP response status and latency displayed.</description>
+    </item>
+    
+  </channel>
+</rss>
