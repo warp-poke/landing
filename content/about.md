@@ -10,7 +10,7 @@ categories:
     - "meta"
 tags:
     - "bio"
-blurb: "Open Source and Highly Scalable Web Monitoring Solution"
+blurb: "an Open Source and Highly Scalable Web Monitoring Solution"
 recentposts: 0
 recentprojects: 0
 photo: "/poke-avatar.png"
