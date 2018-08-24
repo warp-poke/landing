@@ -17,7 +17,9 @@
       <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
       
       <guid>https://poke.digital/features/scalable/</guid>
-      <description></description>
+      <description>Poke rely heavily on Warp10, a very scalable platform for Time Series, and tries to reuse the same components to avoid complexifying the operational stack. It also comes with additional components like the Poke Scheduler, Poke Us, Poke Me and Poke UI.
+Apache Kafka Apache Kafka is a horizontally scalable and fault-tolerant distributed streaming platform. Kafka is used by poke to distribute checks to agents, enabling :
+ Scaling agents through partitions Using multiple groups to enable checks from different zones  Kafka is also used as an ingestion buffer in Warp10.</description>
     </item>
     
   </channel>

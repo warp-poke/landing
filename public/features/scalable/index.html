@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="generator" content="Hugo 0.47" />
+    <meta name="generator" content="Hugo 0.34" />
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,7 +52,7 @@
             </div>
             <div class="mdl-grid">
                 <div class="mdl-cell mdl-cell--12-col">
-                    <h1 style="margin-top:160px;">Poke your website and know when it is down</h1>
+                    <h1 style="margin-top:160px;">Poke your website, Monitor the experience</h1>
                 </div>
             </div>
         </header>
@@ -86,6 +86,45 @@
                         
                     <div class="hmdl-page-content mdl-color-text--grey-700 mdl-card__supporting-text">
                         
+
+<p>Poke rely heavily on Warp10, a very scalable platform for Time Series, and tries to reuse the same components to avoid complexifying the operational stack.
+It also comes with additional components like the Poke Scheduler, Poke Us, Poke Me and Poke UI.</p>
+
+<p><img src="/features/architecture.png" alt="Poke - Architecture" /></p>
+
+<h5 id="apache-kafka">Apache Kafka</h5>
+
+<p>Apache Kafka is a horizontally scalable and fault-tolerant distributed streaming platform. Kafka is used by poke to distribute checks to agents, enabling :</p>
+
+<ul>
+<li>Scaling agents through partitions</li>
+<li>Using multiple groups to enable checks from different zones</li>
+</ul>
+
+<p>Kafka is also used as an ingestion buffer in Warp10.</p>
+
+<h5 id="apache-hbase">Apache HBase</h5>
+
+<p>Apache HBase is the Hadoop database : a distributed, scalable, big data store. It can achieve massive scalability with thousands of nodes.
+Warp10 currently uses HBase as its distributed store</p>
+
+<h5 id="warp10">Warp10</h5>
+
+<p>Warp10 is composed of multiple components :</p>
+
+<ul>
+<li><code>Directory</code> for series indexing</li>
+<li><code>Ingress</code> for ingestion parsing and pushing to Kafka</li>
+<li><code>Egress</code> that runs the WarpScript engine</li>
+<li><code>Store</code> that consumes Kafka and stores into HBase</li>
+</ul>
+
+<p>Each Warp10 components can be run multiple times to distribute the load and ensure having no SPOF.</p>
+
+<h5 id="poke-scheduler">Poke scheduler</h5>
+
+<p>The Poke scheduler is sharded and rely on Zookeeper to ensure the distribution of checks scheduling.</p>
+
                     </div>
                     
                     <div class="hmdl-page-comments mdl-color-text--primary-contrast mdl-card__supporting-text comments"> 

@@ -17,7 +17,9 @@
       <pubDate>Thu, 23 Aug 2018 09:00:00 +0000</pubDate>
       
       <guid>https://poke.digital/documentations/concepts/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper urna ut lorem ornare pharetra. Mauris in lectus id elit viverra suscipit sed at quam. Aliquam tempor facilisis ex, sit amet pharetra lorem euismod ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar nibh non blandit dignissim. Aliquam venenatis euismod facilisis. Duis pulvinar dictum erat, vel interdum urna tincidunt ut. Praesent sit amet tincidunt urna. Fusce dolor felis, porttitor sit amet aliquet ut, blandit sed mauris.</description>
+      <description> Poke is an open-source, multi-region, efficient and scalable web monitoring platform based on Time Series.
+Poke&amp;rsquo;s main features are :
+ Web Performance Monitoring Website Defacement Detection Trend Analysis Advanced Alerting  Performance Monitoring Website Defacement Detection Trend Analysis Advanced Alerting </description>
     </item>
     
   </channel>

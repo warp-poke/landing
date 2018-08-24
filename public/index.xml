@@ -47,7 +47,9 @@ How do we achieve performance There are mainly two parts in the Poke architectur
       <pubDate>Thu, 23 Aug 2018 13:35:58 +0000</pubDate>
       
       <guid>https://poke.digital/features/scalable/</guid>
-      <description></description>
+      <description>Poke rely heavily on Warp10, a very scalable platform for Time Series, and tries to reuse the same components to avoid complexifying the operational stack. It also comes with additional components like the Poke Scheduler, Poke Us, Poke Me and Poke UI.
+Apache Kafka Apache Kafka is a horizontally scalable and fault-tolerant distributed streaming platform. Kafka is used by poke to distribute checks to agents, enabling :
+ Scaling agents through partitions Using multiple groups to enable checks from different zones  Kafka is also used as an ingestion buffer in Warp10.</description>
     </item>
     
     <item>
@@ -88,7 +90,9 @@ This organisation provides some agents in order to check protocols:
       <pubDate>Thu, 23 Aug 2018 09:00:00 +0000</pubDate>
       
       <guid>https://poke.digital/documentations/concepts/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper urna ut lorem ornare pharetra. Mauris in lectus id elit viverra suscipit sed at quam. Aliquam tempor facilisis ex, sit amet pharetra lorem euismod ac. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar nibh non blandit dignissim. Aliquam venenatis euismod facilisis. Duis pulvinar dictum erat, vel interdum urna tincidunt ut. Praesent sit amet tincidunt urna. Fusce dolor felis, porttitor sit amet aliquet ut, blandit sed mauris.</description>
+      <description> Poke is an open-source, multi-region, efficient and scalable web monitoring platform based on Time Series.
+Poke&amp;rsquo;s main features are :
+ Web Performance Monitoring Website Defacement Detection Trend Analysis Advanced Alerting  Performance Monitoring Website Defacement Detection Trend Analysis Advanced Alerting </description>
     </item>
     
     <item>
