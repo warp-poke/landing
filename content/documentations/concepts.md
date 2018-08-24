@@ -20,17 +20,17 @@ Poke is an open-source, multi-region, efficient and scalable web monitoring plat
 Poke's main features are : 
 
   * Web Performance Monitoring
-  * Website Defacement
+  * Website Defacement Detection
   * Trend Analysis
-  * Alert Grouping
+  * Advanced Alerting 
 
 
 
 
 #### Performance Monitoring
 
-#### Website Defacement
+#### Website Defacement Detection
 
 #### Trend Analysis
 
-#### Alert Grouping
+#### Advanced Alerting
