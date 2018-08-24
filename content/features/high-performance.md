@@ -11,6 +11,7 @@ author:
   image: "/poke-avatar.png"
   name: "Poke"
   website: "https://poke.digital/"
+cardbackground: "#ff0066"
 ---
 
 ##### Why being highly efficient?

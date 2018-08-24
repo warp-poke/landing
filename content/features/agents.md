@@ -15,6 +15,7 @@ author:
   image: "/poke-avatar.png"
   name: "Poke"
   website: "https://poke.digital/"
+cardbackground: "#ff0066"
 ---
 
 Agents are operators which create metrics from your websites at regular interval. In addition, they create metrics by zone where the agent is deployed.

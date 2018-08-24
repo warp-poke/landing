@@ -18,8 +18,9 @@ MetaDataFormat = "yaml"
   image = "/poke-avatar.png" #for frontpage profile card
   website = "poke.digital"
   github = "https://github.com/warp-poke/"
+  gitter = "https://gitter.im/warp-poke/Lobby"
   copyrightyear = "2018"
-  frontpageposts = 6 # number of post cards to display on frontpage
+  frontpageposts = 2 # number of post cards to display on frontpage
 
 # Fully customizable header menu
 [[menu.main]]

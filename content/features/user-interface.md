@@ -14,6 +14,7 @@ author:
   image: "/poke-avatar.png"
   name: "Poke"
   website: "https://poke.digital/"
+cardbackground: "#ff0066"
 ---
 
 The user interface provides an easy way to visualize metrics provided by agents. It is created in order to fastly highlight websites malfunctions.
